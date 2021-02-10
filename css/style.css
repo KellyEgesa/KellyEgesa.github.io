@@ -1,3 +1,84 @@
-#mainContainer {
+#rectangle {
   background-color: #13104a;
+  height: 100vh;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+#altRectangle {
+  background-color: #18146b;
+  height: 100vh;
+  padding: 10px;
+}
+#toogleButton {
+  background-color: #f5911e;
+}
+#navList {
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  color: #ffffff;
+}
+#nameNav {
+  color: #979797;
+}
+#nameNav:hover {
+  color: #f5911e;
+  border-bottom: solid;
+  border-color: #f5911e;
+}
+a:link,
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#linkHover {
+  color: #979797;
+}
+#linkHover:hover {
+  color: inherit;
+}
+#name {
+  color: #ffffff;
+  font-size: 100px;
+  border-bottom: 2px solid #f5911e;
+  font-family: "Lato", sans-serif;
+  text-align: right;
+  font-weight: bold;
+}
+#nameIcons {
+  font-size: 30px;
+  color: #979797;
+}
+#nameIcons:hover {
+  cursor: pointer;
+  color: #f5911e;
+}
+.try {
+  background-image: url("../images/main.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+#textAlt {
+  color: #979797;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+#intoText {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+}
+#profileButton {
+  background-color: #f5911e;
+  color: #ffffff;
+}
+#contactButton {
+  border: 2px solid #f5911e;
+  color: #ffffff;
+}
+#contactButton:hover {
+  background-color: #f5911e;
+  size: 125px;
 }

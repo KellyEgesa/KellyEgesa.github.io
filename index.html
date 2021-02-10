@@ -10,11 +10,130 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <title>Bartholomew Kelly Egesa</title>
   </head>
   <body>
-    <div class="container-fluid" id="mainContainer">
-      <div>dsfsd</div>
+    <div id="mainContainer">
+      <div id="rectangle" class="try">
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./"
+              ><img src="images/logo.png" alt="logo" width="75%" height="75%"
+            /></a>
+            <button
+              id="toogleButton"
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="navbar-collapse justify-content-md-end collapse"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav" id="navList">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="nameNav">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="nameNav">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="nameNav">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="nameNav">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-sm">
+            <div class="container-fluid">
+              <span id="name"
+                >Kelly <br />
+                Egesa.
+              </span>
+              <br />
+              <span id="nameIcons" class="">
+                <a
+                  href="https://twitter.com/K_Egesa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="linkHover"
+                >
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </span>
+              <span id="nameIcons" class=""
+                ><a
+                  href="https://www.linkedin.com/in/kelly-egesa-7890131a1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="linkHover"
+                >
+                  <i class="fab fa-linkedin" id="icon"></i> </a
+              ></span>
+              <span id="nameIcons" class=""
+                ><a
+                  href="https://github.com/KellyEgesa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="linkHover"
+                  ><i class="fab fa-github-square" id="icon"></i></a
+              ></span>
+            </div>
+          </div>
+
+          <div id="shortIntro" class="col-sm-5 align-self-center">
+            <span id="textAlt">~ Introduction</span><br />
+            <span id="intoText"
+              >I'm a software engineer based in Nairobi, specializing in
+              development of high quality standard Mobile and Web
+              Applications.</span
+            >
+            <div class="d-flex justify-content-center mt-3">
+              <button
+                type="button"
+                class="btn rounded-pill me-2"
+                id="profileButton"
+              >
+                My Projects</button
+              ><button
+                type="button"
+                class="btn rounded-pill"
+                id="contactButton"
+              >
+                Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="altRectangle"></div>
     </div>
   </body>
 </html>
