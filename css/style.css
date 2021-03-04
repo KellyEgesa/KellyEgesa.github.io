@@ -91,3 +91,10 @@ a {
   color: #f5911e;
   font-size: xx-large;
 }
+#profileImg {
+  width: 30px;
+}
+#svg {
+  display: flex;
+  justify-content: center;
+}
