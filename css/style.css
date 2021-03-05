@@ -55,6 +55,7 @@ a {
   color: #979797;
 }
 #nameIcons:hover {
+  font-size: 35px;
   cursor: pointer;
   color: #f5911e;
 }
@@ -71,13 +72,13 @@ a {
   font-family: "Lato", sans-serif;
 }
 #intoText {
-  font-size: 24px;
+  font-size: 18px;
+  text-align: center;
   font-family: "Lato", sans-serif;
-  color: #ffffff;
+  color: #e2e2e2;
 }
 #profileText {
   font-size: 18px;
-
   font-family: "Lato", sans-serif;
   color: #dcdada;
 }
@@ -95,7 +96,8 @@ a {
 }
 #profile {
   color: #f5911e;
-  font-size: xx-large;
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
 }
 #profileImg {
   width: 30px;
@@ -112,9 +114,9 @@ h5 {
   bottom: 0;
   align-self: center;
 }
-#profileText1 {
+
+#mainText {
   font-size: 22px;
-  line-height: normal;
-  font-family: "Lato", sans-serif;
-  color: #ffffff;
+  color: white;
+  font-weight: bolder;
 }
