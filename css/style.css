@@ -77,9 +77,9 @@ a {
 }
 #profileText {
   font-size: 18px;
-  line-height: normal;
+
   font-family: "Lato", sans-serif;
-  color: #ffffff;
+  color: #dcdada;
 }
 #profileButton {
   background-color: #f5911e;
@@ -111,4 +111,10 @@ h5 {
   position: absolute;
   bottom: 0;
   align-self: center;
+}
+#profileText1 {
+  font-size: 22px;
+  line-height: normal;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
 }
