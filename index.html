@@ -125,13 +125,13 @@
               <div class="d-flex justify-content-center mt-3">
                 <button
                   type="button"
-                  class="btn rounded-pill me-2"
+                  class="btn btn-lg rounded-3 me-2"
                   id="profileButton"
                 >
                   My Projects</button
                 ><button
                   type="button"
-                  class="btn rounded-pill"
+                  class="btn btn-lg rounded-3"
                   id="contactButton"
                 >
                   Contact
@@ -142,7 +142,11 @@
         </div>
         <div id="profile">
           <span class="profile">
-            <i class="fa fa-user" aria-hidden="true"> Profile</i>
+            <i class="fa fa-user" aria-hidden="true">
+              <span class="me-5" style="font-family: 'Lato', sans-serif">
+                Profile</span
+              ></i
+            >
           </span>
           <div class="row">
             <div class="col-sm-5 align-self-center">
@@ -166,8 +170,8 @@
                 >
                   <button
                     type="button"
-                    class="btn rounded-pill me-2"
-                    id="profileButton"
+                    class="btn btn-lg rounded-3 me-2"
+                    id="profileButton1"
                   >
                     Resume
                   </button>
@@ -362,7 +366,38 @@
             </div>
           </div>
         </div>
-        <div id="projects"></div>
+        <div id="projects">
+          <span class="profile">
+            <i class="fa fa-flag" aria-hidden="true">
+              <span class="me-5" style="font-family: 'Lato', sans-serif">
+                Projects</span
+              ></i
+            >
+            <div class="row">
+              <div class="card col-6">
+                <div class="row">
+                  <div class="col-6">
+                    <img
+                      src="./images/main.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-6 p-2">
+                    <h4 class="card-title text-center">GITHUB SEARCH</h4>
+                    <p class="card-text">
+                      A website where users may enter a GitHub username into a
+                      form, submit it, and see names and descriptions of that
+                      person's public repositories. A person can also look for
+                      repositories
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
         <div id="contact"></div>
       </div>
     </div>

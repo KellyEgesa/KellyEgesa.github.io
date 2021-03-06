@@ -85,6 +85,11 @@ a {
 #profileButton {
   background-color: #f5911e;
   color: #ffffff;
+  animation: heartbeat 3s infinite;
+}
+#profileButton1 {
+  background-color: #f5911e;
+  color: #ffffff;
 }
 #contactButton {
   border: 2px solid #f5911e;
@@ -94,7 +99,7 @@ a {
   background-color: #f5911e;
   size: 125px;
 }
-#profile {
+.profile {
   color: #f5911e;
   font-family: "Lato", sans-serif;
   font-size: x-large;
@@ -119,4 +124,25 @@ h5 {
   font-size: 22px;
   color: white;
   font-weight: bolder;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.9);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }
